@@ -57,7 +57,7 @@ const HomePage = () => {
       <View
         style={{
           backgroundColor: variables.colors.gray100,
-          width: 500,
+          width: 350,
           padding: 24,
         }}
       >
