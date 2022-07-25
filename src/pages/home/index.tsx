@@ -82,7 +82,7 @@ const HomePage = () => {
               onPress={handleCountry}
               disabled={!nameCountry}
             >
-              <Text>SEARCH</Text>
+              <Text>SUBMIT</Text>
 
               {loading && (
                 <ActivityIndicator
