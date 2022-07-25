@@ -5,6 +5,7 @@ import {
   ActivityIndicator,
   TextInput,
   TouchableOpacity,
+  Dimensions,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
@@ -57,7 +58,7 @@ const HomePage = () => {
       <View
         style={{
           backgroundColor: variables.colors.gray100,
-          width: 350,
+          width: Dimensions.get('window').width-30,
           padding: 24,
         }}
       >

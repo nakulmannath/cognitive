@@ -3,6 +3,7 @@ import {
   View,
   Text,
   TouchableOpacity,
+  Dimensions,
 } from "react-native";
 
 import { variables } from "../../theme";
@@ -70,7 +71,7 @@ const DetailsPage = () => {
       <View
         style={{
           backgroundColor: variables.colors.gray100,
-          width: 350,
+          width: Dimensions.get('window').width-30,
           padding: 24,
 
         }}
